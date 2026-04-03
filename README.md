@@ -1,6 +1,6 @@
 # 💼 Deepika KSR — Portfolio
 
-A modern, responsive personal portfolio website showcasing my projects, skills, professional experience, and academic journey in AI/ML and Full-Stack Development.
+A modern, responsive personal portfolio website showcasing my AI/ML and Full-Stack Development journey.
 
 🔗 **Live Site:** [https://deepikaksr.github.io/deepika-ksr-portfolio/](https://deepikaksr.github.io/deepika-ksr-portfolio/)
 
@@ -46,40 +46,28 @@ A modern, responsive personal portfolio website showcasing my projects, skills, 
 
 ---
 
-## ✨ Highlights
+## 💡 Sections
 
-- 🎓 M.Sc. AI & ML student with a **9.22 CGPA**
-- 🧠 Skilled in **Deep Learning, NLP, LLMs, AI Agents, RAG Systems & Computer Vision**
-- 💻 Experience in **Full-Stack Development** (React, Node.js, Flutter, Firebase)
-- 🏢 Research Intern at **Microsoft Research Lab India**
-- 📱 Mobile App Developer Intern at **Joslin Pharmaa India**
-
----
-
-## 📸 Sections
-
-| Section                           | Description                                                                       |
-| --------------------------------- | --------------------------------------------------------------------------------- |
-| **Hero**                    | Introduction with profile photo and social links                                  |
-| **About Me**                | Passion, academic journey, technical expertise, and vision                        |
-| **Professional Experience** | Internship details at Microsoft Research Lab & Joslin Pharmaa                     |
-| **Skills & Expertise**      | Interactive skill bars across AI/ML, Programming, Full-Stack, Tools & Soft Skills |
-| **Featured Projects**       | Detailed project cards with tech stack, metrics, and GitHub links                 |
-| **Contact**                 | Email, phone, LinkedIn, and GitHub contact information                            |
+| Section | Description |
+|---|---|
+| **Hero** | Introduction and social links |
+| **About Me** | Passion, background, and vision |
+| **Professional Experience** | Internship and industry experience |
+| **Skills** | Technical proficiency and tools |
+| **Featured Projects** | Showcasing AI/ML and Web projects |
+| **Contact** | Communication channels |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category                | Technologies            |
-| ----------------------- | ----------------------- |
-| **Framework**     | React 18 + TypeScript   |
-| **Build Tool**    | Vite                    |
-| **Styling**       | Tailwind CSS            |
-| **UI Components** | shadcn/ui (Radix UI)    |
-| **Routing**       | React Router DOM        |
-| **Icons**         | Lucide React            |
-| **Deployment**    | GitHub Pages (gh-pages) |
+| Category | Technologies |
+|---|---|
+| **Framework** | React 18 + TypeScript |
+| **Build Tool** | Vite |
+| **Styling** | Tailwind CSS |
+| **UI Components** | shadcn/ui |
+| **Deployment** | GitHub Pages |
 
 ---
 
@@ -87,93 +75,47 @@ A modern, responsive personal portfolio website showcasing my projects, skills, 
 
 ```
 deepika-ksr-portfolio/
-├── public/
-│   ├── lovable-uploads/        # Profile photo and media assets
-│   ├── favicon.ico
-│   └── robots.txt
+├── public/                     # Media assets and static files
 ├── src/
-│   ├── components/
-│   │   ├── Hero.tsx            # Landing section with intro and photo
-│   │   ├── About.tsx           # About me with interactive tabs
-│   │   ├── Experience.tsx      # Professional experience / internships
-│   │   ├── Expertise.tsx       # Skills & expertise with progress bars
-│   │   ├── Projects.tsx        # Featured projects showcase
-│   │   ├── Contact.tsx         # Contact information section
-│   │   ├── Navigation.tsx      # Top navigation bar
-│   │   ├── NetworkBackground.tsx  # Animated background effect
-│   │   └── ui/                 # shadcn/ui component library
-│   ├── pages/
-│   │   ├── Index.tsx           # Main page layout
-│   │   └── NotFound.tsx        # 404 page
-│   ├── App.tsx                 # App entry with routing
-│   ├── main.tsx                # React DOM render entry
-│   └── index.css               # Global styles
-├── index.html
-├── package.json
-├── tailwind.config.ts
-├── vite.config.ts
-├── tsconfig.json
-└── README.md
+│   ├── components/             # React components
+│   │   └── ui/                 # UI component library
+│   ├── pages/                  # Page layouts
+│   ├── App.tsx                 # Routing
+│   └── main.tsx                # Entry point
+├── tailwind.config.ts          # Styling configuration
+└── vite.config.ts              # Build configuration
 ```
 
 ---
 
 ## ⚙️ Getting Started
 
-### Prerequisites
-
-- **Node.js** v18 or higher
-- **npm** v9 or higher
-
-### Installation
-
 ```bash
-# Clone the repository
+# Clone and install
 git clone https://github.com/deepikaksr/deepika-ksr-portfolio.git
 cd deepika-ksr-portfolio
-
-# Install dependencies
 npm install
 
-# Start the development server
+# Run locally
 npm run dev
 ```
-
-Open your browser and navigate to **http://localhost:8080/deepika-ksr-portfolio/**
 
 ---
 
 ## 🚀 Deployment
-
-This project is deployed to **GitHub Pages** using the `gh-pages` package.
 
 ```bash
 # Build and deploy to GitHub Pages
 npm run deploy
 ```
 
-This will automatically build the production bundle and publish it to the `gh-pages` branch.
-
----
-
-## 📌 Available Scripts
-
-| Command             | Description                               |
-| ------------------- | ----------------------------------------- |
-| `npm run dev`     | Start the local development server        |
-| `npm run build`   | Build production-ready files to `/dist` |
-| `npm run preview` | Preview the production build locally      |
-| `npm run deploy`  | Build and deploy to GitHub Pages          |
-| `npm run lint`    | Run ESLint for code quality checks        |
-
 ---
 
 ## 📬 Contact
 
+- **LinkedIn:** [deepika-ksr](https://www.linkedin.com/in/deepika-ksr-9a3330254)
+- **GitHub:** [deepikaksr](https://github.com/deepikaksr)
 - **Email:** deepikaksramesh@gmail.com
-- **LinkedIn:** [linkedin.com/in/deepika-ksr-9a3330254](https://www.linkedin.com/in/deepika-ksr-9a3330254)
-- **GitHub:** [github.com/deepikaksr](https://github.com/deepikaksr)
-- **Phone:** +91 9176362643
 
 ---
 
