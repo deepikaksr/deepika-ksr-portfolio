@@ -1,6 +1,6 @@
 # 💼 Deepika KSR — Portfolio
 
-A modern, responsive personal portfolio website showcasing my AI/ML and Full-Stack Development journey.
+A Comprehensive Showcase of My Technical Projects and Professional Experience, Driven by a Passion for AI/ML Research and Full-Stack Engineering.
 
 🔗 **Live Site:** [https://deepikaksr.github.io/deepika-ksr-portfolio/](https://deepikaksr.github.io/deepika-ksr-portfolio/)
 
