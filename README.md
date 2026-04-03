@@ -6,44 +6,6 @@ A modern, responsive personal portfolio website showcasing my AI/ML and Full-Sta
 
 ---
 
-## 📸 Project Preview
-
-<p align="center">
-  <img src="screenshots/home.png" alt="Home Section" width="800">
-  <br>
-  <i>Home Section</i>
-</p>
-
-<p align="center">
-  <img src="screenshots/about.png" alt="About Section" width="800">
-  <br>
-  <i>About Section</i>
-</p>
-
-<p align="center">
-  <img src="screenshots/experience.png" alt="Experience Section" width="800">
-  <br>
-  <i>Experience Section</i>
-</p>
-
-<p align="center">
-  <img src="screenshots/skills.png" alt="Skills Section" width="800">
-  <br>
-  <i>Skills Section</i>
-</p>
-
-<p align="center">
-  <img src="screenshots/projects.png" alt="Projects Section" width="800">
-  <br>
-  <i>Projects Section</i>
-</p>
-
-<p align="center">
-  <img src="screenshots/contact.png" alt="Contact Section" width="800">
-  <br>
-  <i>Contact Section</i>
-</p>
-
 ---
 
 ## 💡 Sections
