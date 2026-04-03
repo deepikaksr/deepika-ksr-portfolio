@@ -1,135 +1,182 @@
-# 💼 Deepika KSR's Portfolio
+# 💼 Deepika KSR — Portfolio
 
-A personal portfolio built with modern frontend technologies, designed to showcase projects, skills, and experiences in a visually appealing and developer-friendly format.
+A modern, responsive personal portfolio website showcasing my projects, skills, professional experience, and academic journey in AI/ML and Full-Stack Development.
 
----
-
-## 📝 Project Description
-
-This is a **responsive personal portfolio** application that highlights Deepika's background, projects, technical skills, and contact information. It is built using **Vite, React, TypeScript, Tailwind CSS, and ShadCN UI** for a clean and customizable UI. The project is designed and scaffolded using [Lovable](https://lovable.dev), enabling AI-assisted UI development and instant deployment.
+🔗 **Live Site:** [https://deepikaksr.github.io/deepika-ksr-portfolio/](https://deepikaksr.github.io/deepika-ksr-portfolio/)
 
 ---
 
-## ✅ Key Features
+## 📸 Project Preview
 
-- Elegant and modern UI with responsive design
-- Built using a powerful frontend stack (Vite + React + TypeScript)
-- UI components styled using Tailwind CSS and ShadCN
-- Editable via Lovable's AI interface or directly in your IDE
-- Easily deployable with one-click from Lovable
-- Supports custom domains and versioned previews
+<p align="center">
+  <img src="screenshots/home.png" alt="Home Section" width="800">
+  <br>
+  <i>Home Section</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/about.png" alt="About Section" width="800">
+  <br>
+  <i>About Section</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/experience.png" alt="Experience Section" width="800">
+  <br>
+  <i>Experience Section</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/skills.png" alt="Skills Section" width="800">
+  <br>
+  <i>Skills Section</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/projects.png" alt="Projects Section" width="800">
+  <br>
+  <i>Projects Section</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/contact.png" alt="Contact Section" width="800">
+  <br>
+  <i>Contact Section</i>
+</p>
 
 ---
 
-## 💻 System Requirements
+## ✨ Highlights
 
-- Node.js v18 or higher  
-- npm v9 or higher  
-- Modern web browser (Chrome, Edge, Firefox)
+- 🎓 M.Sc. AI & ML student with a **9.22 CGPA**
+- 🧠 Skilled in **Deep Learning, NLP, LLMs, AI Agents, RAG Systems & Computer Vision**
+- 💻 Experience in **Full-Stack Development** (React, Node.js, Flutter, Firebase)
+- 🏢 Research Intern at **Microsoft Research Lab India**
+- 📱 Mobile App Developer Intern at **Joslin Pharmaa India**
 
 ---
 
-## 📂 Folder Structure
+## 📸 Sections
+
+| Section                           | Description                                                                       |
+| --------------------------------- | --------------------------------------------------------------------------------- |
+| **Hero**                    | Introduction with profile photo and social links                                  |
+| **About Me**                | Passion, academic journey, technical expertise, and vision                        |
+| **Professional Experience** | Internship details at Microsoft Research Lab & Joslin Pharmaa                     |
+| **Skills & Expertise**      | Interactive skill bars across AI/ML, Programming, Full-Stack, Tools & Soft Skills |
+| **Featured Projects**       | Detailed project cards with tech stack, metrics, and GitHub links                 |
+| **Contact**                 | Email, phone, LinkedIn, and GitHub contact information                            |
+
+---
+
+## 🛠️ Tech Stack
+
+| Category                | Technologies            |
+| ----------------------- | ----------------------- |
+| **Framework**     | React 18 + TypeScript   |
+| **Build Tool**    | Vite                    |
+| **Styling**       | Tailwind CSS            |
+| **UI Components** | shadcn/ui (Radix UI)    |
+| **Routing**       | React Router DOM        |
+| **Icons**         | Lucide React            |
+| **Deployment**    | GitHub Pages (gh-pages) |
+
+---
+
+## 📂 Project Structure
 
 ```
-deepika-ksr-portfolio
+deepika-ksr-portfolio/
 ├── public/
+│   ├── lovable-uploads/        # Profile photo and media assets
+│   ├── favicon.ico
+│   └── robots.txt
 ├── src/
 │   ├── components/
-│   ├── App.tsx
-│   └── main.tsx
+│   │   ├── Hero.tsx            # Landing section with intro and photo
+│   │   ├── About.tsx           # About me with interactive tabs
+│   │   ├── Experience.tsx      # Professional experience / internships
+│   │   ├── Expertise.tsx       # Skills & expertise with progress bars
+│   │   ├── Projects.tsx        # Featured projects showcase
+│   │   ├── Contact.tsx         # Contact information section
+│   │   ├── Navigation.tsx      # Top navigation bar
+│   │   ├── NetworkBackground.tsx  # Animated background effect
+│   │   └── ui/                 # shadcn/ui component library
+│   ├── pages/
+│   │   ├── Index.tsx           # Main page layout
+│   │   └── NotFound.tsx        # 404 page
+│   ├── App.tsx                 # App entry with routing
+│   ├── main.tsx                # React DOM render entry
+│   └── index.css               # Global styles
 ├── index.html
 ├── package.json
-├── postcss.config.js
 ├── tailwind.config.ts
 ├── vite.config.ts
 ├── tsconfig.json
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
 
-## ⚙️ Installation Guide
+## ⚙️ Getting Started
 
-### 1. Clone the Repository
+### Prerequisites
+
+- **Node.js** v18 or higher
+- **npm** v9 or higher
+
+### Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/deepikaksr/deepika-ksr-portfolio.git
 cd deepika-ksr-portfolio
-```
 
-### 2. Install Dependencies
-
-```bash
+# Install dependencies
 npm install
-```
 
-### 3. Start the Development Server
-
-```bash
+# Start the development server
 npm run dev
 ```
 
-Open your browser and go to [http://localhost:8080/](http://localhost:8080/) to view the app.
+Open your browser and navigate to **http://localhost:8080/deepika-ksr-portfolio/**
 
 ---
 
-## 🚀 Deployment Options
+## 🚀 Deployment
 
-### Deploy via Lovable (Recommended)
-
-1. Visit the project:  
-   [Lovable Project URL](https://lovable.dev/projects/cfb68ab2-7549-4cc5-8809-4c0d3df9bc61)
-2. Click **Share → Publish**
-3. Your site will be live instantly
-4. To connect a custom domain:  
-   Navigate to **Project > Settings > Domains** and follow the prompts  
-   🔗 [Custom domain setup guide](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-
----
-
-## 🧠 Editing the Code
-
-### 💡 Option 1: Lovable Web Editor
-
-- Open the project on [Lovable](https://lovable.dev/projects/cfb68ab2-7549-4cc5-8809-4c0d3df9bc61)
-- Start prompting changes or edit visually
-- All edits are auto-committed
-
-### 💡 Option 2: Local IDE
+This project is deployed to **GitHub Pages** using the `gh-pages` package.
 
 ```bash
-git clone https://github.com/deepikaksr/deepika-ksr-portfolio.git
-cd deepika-ksr-portfolio
-npm install
-npm run dev
+# Build and deploy to GitHub Pages
+npm run deploy
 ```
 
-Use VSCode or any editor to modify your code. Push changes via Git to sync.
-
-### 💡 Option 3: GitHub Web Editor
-
-- Navigate to a file on GitHub
-- Click the 🖉 pencil icon to edit
-- Commit changes directly
+This will automatically build the production bundle and publish it to the `gh-pages` branch.
 
 ---
 
-## 🌐 Technologies Used
+## 📌 Available Scripts
 
-- ⚡ **Vite** — Lightning-fast build tool
-- ⚛️ **React** — Component-based UI library
-- 🟦 **TypeScript** — Strongly typed JavaScript
-- 🎨 **Tailwind CSS** — Utility-first CSS framework
-- 🧩 **shadcn/ui** — Accessible and customizable UI components
+| Command             | Description                               |
+| ------------------- | ----------------------------------------- |
+| `npm run dev`     | Start the local development server        |
+| `npm run build`   | Build production-ready files to `/dist` |
+| `npm run preview` | Preview the production build locally      |
+| `npm run deploy`  | Build and deploy to GitHub Pages          |
+| `npm run lint`    | Run ESLint for code quality checks        |
 
 ---
 
-## 📌 Useful Commands
+## 📬 Contact
 
-```bash
-npm run dev       # Start local dev server
-npm run build     # Build production-ready files
-npm run preview   # Preview production build locally
-```
+- **Email:** deepikaksramesh@gmail.com
+- **LinkedIn:** [linkedin.com/in/deepika-ksr-9a3330254](https://www.linkedin.com/in/deepika-ksr-9a3330254)
+- **GitHub:** [github.com/deepikaksr](https://github.com/deepikaksr)
+- **Phone:** +91 9176362643
+
+---
+
+## 📄 License
+
+This project is open source and available for personal use.
